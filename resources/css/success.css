@@ -1,0 +1,136 @@
+body {
+    font-family: 'Rounded Mplus 1c', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col {
+    height: 100vh;
+    width: 100%;
+}
+
+.row {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#left_success_home {
+    background-image: url("../images/Rectangle_3.png");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#right_success_home {
+    background-color: #FAFAED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.order-button {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+    background-color: #0000FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+    width: 12rem;
+    height: 3rem;
+    font-family: 'Rounded Mplus 1c', sans-serif;
+}
+
+.order-button .arrow {
+    margin-left: 10px;
+    color: #FFD700;
+    font-size: 18px;
+}
+
+.order-button:hover {
+    background-color: #00008B;
+    transform: scale(1.05);
+}
+
+.container_success {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .row {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .logo {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+    }
+
+    img.success-img {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+
+    }
+
+    p {
+        text-align: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .container_success {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    #right_success_home {
+        background-color: #FAFAED;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    p {
+        padding: 1rem;
+    }
+}
