@@ -2,3 +2,9 @@ Projeto realizado utilizando Laravel, HTML, CSS e Javascript puros, utilizando P
 
 
 URL projeto: https://morning-refuge-84287-4a6c51efbcc7.herokuapp.com/
+
+
+API Routes: 
+GET /broths
+GET /proteins
+POST /orders
