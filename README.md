@@ -5,6 +5,6 @@ URL projeto: https://morning-refuge-84287-4a6c51efbcc7.herokuapp.com/
 
 
 API Routes: 
-GET /broths
-GET /proteins
-POST /orders
+GET /api/broths
+GET /api/proteins
+POST /api/orders
